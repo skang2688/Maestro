@@ -24,6 +24,9 @@ namespace Maestro
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello Steven Kang!");
+                await context.Response.WriteAsync("Hello Steven Kang!");
+                await context.Response.WriteAsync("Hello Steven Kang!");
+                await context.Response.WriteAsync("Hello Steven Kang!");
             });
         }
     }
