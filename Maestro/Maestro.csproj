@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
+    <StartupObject>Maestro.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
